@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "User cannot login to the account using correct credentials.",
+    "customer": "Rahim Uddin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failed",
+    "description": "Payment does not go through while checking out products.",
+    "customer": "Karim Hasan",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 3,
+    "title": "Profile Update Error",
+    "description": "Unable to update profile information in account settings.",
+    "customer": "Salma Akter",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-02"
+  },
+  {
+    "id": 4,
+    "title": "App Crash on Startup",
+    "description": "Mobile app crashes immediately after opening.",
+    "customer": "Tanvir Ahmed",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03"
+  },
+  {
+    "id": 5,
+    "title": "Forgot Password Link Not Working",
+    "description": "Reset password link is broken or not sending email.",
+    "customer": "Mousumi Rahman",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-04"
+  }
+]
