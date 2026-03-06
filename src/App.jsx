@@ -1,7 +1,7 @@
 import "./App.css";
 import "./styles/main.scss";
 import CusHeader from "./components/Header/CusHeader";
-import CusCount from "./components/count/CusCount";
+import CusCount from "./components/Count/CusCount";
 import CusTickets from "./components/Tickets/CusTickets";
 import CusFooter from "./components/Footer/CusFooter";
 
