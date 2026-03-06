@@ -1,0 +1,14 @@
+@use "../helper" as *;
+
+/*Tickets Style*/
+
+.cus-tickets{
+    &-area{
+        padding: 50px 0;
+    }
+    &-item{
+        padding: 20px;
+        border-radius: 16px;
+    }
+}
+

@@ -1,7 +1,7 @@
 import React, {use} from "react";
 
 
-const Tickets = ({TicketsPromise}) => {
+const DemoTickets = ({TicketsPromise}) => {
     const tickets = use(TicketsPromise);
     console.log(tickets)
     return(
@@ -11,4 +11,4 @@ const Tickets = ({TicketsPromise}) => {
     );
 };
 
-export default Tickets;
+export default DemoTickets;

@@ -1,0 +1,9 @@
+@use "../helper" as *;
+
+/*Count Style*/
+
+.cus-count{
+    &-item{
+        padding: 67px 0;
+    }
+}

@@ -1,0 +1,65 @@
+// font url 
+
+$font-url: 'https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap';
+
+// Font Family 
+
+$font-family: (
+    ff: (
+        body: "'Inter', sans-serif",
+        heading: "'Inter', sans-serif",
+        p: "'Inter', sans-serif",
+    )   
+);
+
+// Font Weight
+
+$font-weight:(
+    fw:(
+        regular: 400,
+        medium:500,
+        semiBold:700,
+    )
+);
+
+// Font Size
+
+// Scaling factors for devices
+$scaling-factor: (
+  tablet: 0.85, // 85% of desktop font size
+  mobile: 0.7   // 70% of desktop font size
+);
+
+// Font sizes for elements
+// $font-sizes: (
+//   body: 1rem,
+//   p: 1rem,
+//   h1: 3rem,
+//   h2: 2.5rem,
+//   h3: 2rem,
+//   h4: 1.75rem,
+//   h5: 1.5rem,
+//   h6: 1.25rem,
+//   button: 1rem
+// );
+
+$font-sizes: (
+  body: 16px,  
+  p: 16px,    
+  h1: 54px,    
+  h2: 48px,  
+  h3: 38px,    
+  h4: 36px, 
+  h5: 32px, 
+  h6: 24px, 
+  button: 14px 
+);
+
+// Extract scaling factors
+$tablet-scale: map-get($scaling-factor, tablet);
+$mobile-scale: map-get($scaling-factor, mobile);
+
+
+
+
+
